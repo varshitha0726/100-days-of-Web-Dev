@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/server">
+        <div>
+            Languages known:
+            <input type="checkbox" id="english" name="lang" value="eng" checked />
+            <label for="english">English </label>
+
+            <input type="checkbox" id="hindi" name="lang" value="hindi" />
+            <label for="hindi">Hindi </label>
+
+            <input type="checkbox" id="telugu" name="lang" value="tel" />
+            <label for="telugu">Telugu </label>
+        </div>
+        <hr />
+        <div>
+            Gender
+            <input type="radio" id="male" name="gender" value="male" />
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="female" />
+            <label for="female">Female</label>
+
+        </div>
+        <hr />
+        <div>
+            Select Your City:
+            <select name="city" id="city">
+                <option> ----SELECT----</option>
+                <option value="hyd">Hyderabad</option>
+                <option value="chennai">Chennai</option>
+                <option value="delhi">Delhi</option>
+            </select>
+        </div>
+        <div>
+            <label for="volume">Volume</label>
+            <input type="range" name="vol" id="volume" min="200" max="2000" step="100" value="500" /> <!-- default min=0 max=100 -->
+        </div>
+        
+        <div>
+            <label for="feedback">Give your valuable feedback</label>
+            <textarea id="feedback" name="feedback" placeholder="Write your feedback here"></textarea>  <!--default rows=2 cols=10-->
+        </div>
+        <button>Submit</button>
+        </form>
+    </form>
+</body>
+</html>
