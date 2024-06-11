@@ -1,0 +1,73 @@
+*{          /* universal selector */
+    font-family: Book Antiqua;  
+}
+
+h1,h3{   /* element selector */
+    color:rgb(245, 41, 54);
+}
+
+#login{  /* id selector */
+    background-color: white;
+}
+
+#signup{  /* id selector */
+    background-color: rgb(245, 41, 54);
+    color: white;
+}
+
+.up{   /* class selector */
+    background-color: green;
+    color: beige;
+}
+
+p a{   /* descendant selector */
+    color: purple;
+    background-color: yellow;
+}
+
+nav ul li a{   /* descendant selector */
+    color:brown;
+}
+
+p + h3{      /* sibling combinator */
+    text-decoration: underline;
+}
+
+.up + button{   /* sibling combinator */
+    background-color: azure;
+}
+
+div > input{   /*child combinator */
+    background-color: burlywood;
+}
+
+input[type="text"]{ /*attribute selector */
+    color: rgb(36, 10, 55);
+}
+
+input[type]{   /* attribute selector */
+    background-color:chartreuse;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+button:active{
+    background-color: pink;
+    color: blue;
+}
+
+p:active{
+    color:black;
+    font-weight: 900;
+}
+
+input[type="radio"]:checked + label{
+    color:blue;
+}
+
+.post:nth-of-type(2n){
+    background-color: cornsilk;
+}
