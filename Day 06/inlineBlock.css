@@ -1,0 +1,13 @@
+div{
+    height:200px;
+    width:200px;
+    background-color: pink;
+    border: 2px solid black;
+    margin :5px;
+    /*display: inline; */ /* since the display is set to inline, height, width, margin on top and bottom are not applied to div */
+    display:inline-block; /*to auire styles as well as to be inline */
+}
+
+#third{
+    display:none;
+}

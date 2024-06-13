@@ -1,0 +1,25 @@
+h1{
+    display: inline;
+    background-color: bisque;
+}
+
+/* span{
+    display: block;
+    background-color: aquamarine;
+} */
+
+span{
+    height: 100px;
+    width:200px;
+    border: 2px solid black;
+    padding: 50px;
+    margin: 50px;
+}
+
+#di{
+    height: 100px;
+    width:200px;
+    border: 2px solid black;
+    padding: 50px;
+    margin: 50px;
+}

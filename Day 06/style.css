@@ -1,0 +1,38 @@
+div{
+    height : 200px; /* height of content area not the height of outer edge */
+    width: 400px;  /* Width of the content area not the width of outer edge */
+    background-color: bisque;
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: black; */
+    border: 2px solid black;
+    border-top:2px dashed indigo;
+    border-bottom:2px dashed indigo;
+    border-radius: 15px;
+    /* border-radius: 50%; */
+    /* border-top-right-radius: 50px; */
+    padding: 20px;
+    /* margin-top:30px;
+    margin-left:50px; */
+    margin: 30px;
+    /* margin: 15px 30px; */
+    /* margin: 10px 20px 30px; */
+    margin: 10px 20px 30px 40px;
+}
+
+h1{
+    border: 3px dashed indigo;
+    margin: 0;
+}
+
+button{
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: greenyellow;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    /* padding:10px; */
+    padding: 5px 10px;
+    /* padding: 5px 10px 20px; */
+    /* padding: 5px 10px 15px 20px; */
+}
