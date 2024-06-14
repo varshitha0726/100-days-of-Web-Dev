@@ -1,0 +1,12 @@
+#alpha{   /*alpha will make the color translucent */
+    height: 200px;
+    width: 200px;
+    background-color: rgba(0,255,0,0.3);
+}
+
+#opacity{   /*opacity will be applied on contents also i.e contents of the entire element becomes translucent*/
+    height:200px;
+    width:200px;
+    background-color: rgb(0,255,0);
+    opacity:0.3;
+}
