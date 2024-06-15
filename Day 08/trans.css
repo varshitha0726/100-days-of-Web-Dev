@@ -1,0 +1,26 @@
+#div1{
+    height: 400px;
+    width:400px;
+    background-color: greenyellow;
+    transition: 1s;
+}
+
+#div1:hover{
+    background-color: blue;
+    border-radius: 50%;
+}
+
+#div2{
+    height:100px;
+    width:100px;
+    background-color: pink;
+    margin:0 auto;
+    margin-top:10px;
+    transform: rotate(45deg);
+    transition: margin-top 5s ease-in 0.3s; /* transition: property |duration |timing function | delay */
+}
+
+#div2:hover{
+    margin-top:200px;
+    background-color: blueviolet;
+}
