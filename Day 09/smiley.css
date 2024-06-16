@@ -1,0 +1,32 @@
+#face{
+    height: 400px;
+    width: 400px;
+    background-color: yellow;
+    border-radius: 50%;
+    border: 3px solid darkorange;
+}
+
+#left, #right{
+    height: 75px;
+    width: 75px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 100px;
+    left: 90px; /* left eye is exactly on top of mouth starting */
+}
+
+#right{
+    left: 235px; /* mouth + 90 from left = 290-75=235 */
+}
+
+#mouth{
+    height:100px;
+    width: 220px;
+    background-color: brown;
+    border-radius: 0px 0px 50% 50%;
+    position: absolute;
+    top:  250px;
+    left: 90px;/* 400 - 220 = 180 => 180/2=90 */ 
+}

@@ -1,0 +1,38 @@
+div{
+    height:100px;
+    width:100px;
+    background-color: chartreuse;
+    border: 2px solid black;
+    margin :5px;
+    display:inline-block;
+}
+
+#static{
+    background-color: bisque;
+    position: static;  /*doesn't change */
+    top: 100px;
+    left: 100px;
+}
+
+#relative{
+    background-color: bisque;
+    position: relative;
+    top: 100px;  /*moves 100px from left and 100px from bottom from its original pos */
+    left: 100px;
+}
+
+#relative{
+    background-color: bisque;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+#fixed
+{
+    background-color: bisque;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}
+
